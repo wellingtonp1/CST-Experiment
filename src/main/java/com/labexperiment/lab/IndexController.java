@@ -70,7 +70,7 @@ private J48 tree;
 
 public IndexController() throws Exception {
 //public IndexController(Mind m) throws Exception {
-		DataSource source = new DataSource("C:\\Users\\wellf\\eclipse-workspace\\teste01\\src\\main\\java\\teste01\\oasis02.arff");
+		DataSource source = new DataSource("oasis-db.arff");
 		data = source.getDataSet();
 		System.out.println(data.numInstances() + " instances loaded!");
 		//m.getRawMemory().getAllMemoryObjects()
